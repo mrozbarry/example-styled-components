@@ -3,6 +3,7 @@
 ## Findings
 
 |                    | Lines of code | Number of files | Build Size  |
+| ------------------ | ------------- | --------------- |------------ |
 | Styled-Components  | 84            | 2<sup>1</sup>   | 329K        |
 | React+Sass         | 79            | 5               | 286K        |
 
