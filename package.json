@@ -1,0 +1,36 @@
+{
+  "name": "example-styled-components",
+  "version": "0.0.1",
+  "description": "Comparison of sass and styled-components",
+  "main": "index.js",
+  "author": "Alex Barry <alex.barry@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "styled-components": "^2.3.0",
+    "webpack": "^2",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "scripts": {
+    "test": "",
+    "start": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.compiled.js"
+  }
+}

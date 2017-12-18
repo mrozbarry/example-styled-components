@@ -1,0 +1,22 @@
+@import "../theme.sass"
+
+.input-container
+  display: flex
+  flex-direction: column
+  font-family: $default-font-face
+  font-size: $default-font-size * 1px
+
+  input
+    font-size: $input-font-size
+    padding: $input-padding
+    border-radius: $border-radius
+    order: 1
+
+  label
+    order: 0
+
+  input:invalid + label
+    color: $primary-colour
+
+  ul
+    order: 2
