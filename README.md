@@ -16,7 +16,7 @@ Notes:
 
 ### General
 
- - Non-minified code made styled-components almost a full 2x larger than react and sass.
+ - ~~Non-minified code made styled-components almost a full 2x larger than react and sass.~~ _Checked again, and this is incorrect._
 
 ### React+Sass
 

@@ -1,4 +1,5 @@
 const webpack = require("webpack")
+const MinifyPlugin  = require("babel-minify-webpack-plugin")
 const path = require("path")
 
 const ROOT = path.resolve(__dirname, "..")
@@ -10,7 +11,7 @@ module.exports = {
   },
 
   output: {
-    filename: "[name].js",
+    filename: "[name].min.js",
     path: path.resolve(ROOT, "dist"),
     publicPath: "/",
   },
@@ -42,4 +43,8 @@ module.exports = {
   },
 
   target: "web",
+
+  plugins: [
+    new MinifyPlugin()
+  ]
 }

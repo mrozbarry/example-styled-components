@@ -31,6 +31,7 @@
   "scripts": {
     "test": "",
     "start": "webpack-dev-server --config ./config/webpack.dev.js",
-    "build": "webpack --config ./config/webpack.compiled.js"
+    "build": "webpack --config ./config/webpack.compiled.js",
+    "build-min": "webpack --config ./config/webpack.minified.js"
   }
 }
